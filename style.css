@@ -1,0 +1,110 @@
+*, html, body 
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+.Container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: lightskyblue;
+}
+
+.nav-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 45px;
+	background-color: #3f627f;
+	font-size: 1.1rem;
+	padding: 15px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+.brand {
+	display: flex;
+	flex-direction: row;
+	padding-left: 4px;
+	padding: 15px;
+	font-size: 1.5rem ;
+}
+
+.name_0 {
+	color: cornsilk;
+	font-weight: 700;
+}
+
+.name_1 {
+	color: tomato;
+
+}
+
+.Menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.Menu > li {
+	list-style-type: none;
+	padding: 15px;
+}
+
+.Menu > li > a {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+}
+
+.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+}
+
+.Menu > li > a:hover {
+	color: dodgerblue;
+	transition: all .3s ease-in-out;
+}
+
+
+
+.actv {
+	background-color: lightskyblue;
+	color: white;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+@media (max-width: 1024px)
+{
+	.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: none;
+}
+}
+
+@media (max-width: 600px)
+{
+	.Menu > li > a .text {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: none;
+	}
+
+	.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: inherit;
+}
+}

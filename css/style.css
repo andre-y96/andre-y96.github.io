@@ -1,0 +1,451 @@
+*, html, 
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+.Container {
+	display: flex;
+	background-color: lightskyblue;
+}
+
+.nav-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 45px;
+	background-color: #3f627f;
+	font-size: 1.1rem;
+	padding: 15px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+.brand {
+	display: flex;
+	flex-direction: row;
+	padding-left: 4px;
+	padding: 15px;
+	font-size: 1.5rem ;
+}
+
+.name_0 {
+	color: cornsilk;
+	font-weight: 700;
+}
+
+.name_1 {
+	color: tomato;
+
+}
+
+.Menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.Menu > li {
+	list-style-type: none;
+	padding: 15px;
+}
+
+.Menu > li > a {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+}
+
+.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+}
+
+.Menu > li > a:hover {
+	color: dodgerblue;
+	transition: all .3s ease-in-out;
+}
+
+
+
+.actv {
+	background-color: lightskyblue;
+	color: white;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+@media (max-width: 1024px)
+{
+	.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: none;
+}
+}
+
+@media (max-width: 600px)
+{
+	.Menu > li > a .text {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: none;
+	}
+
+	.Menu > li > a .icon {
+	color: white;
+	font-size: 1.05rem;
+	text-decoration: none;
+	display: inherit;
+	}
+}
+
+.Container2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%%;
+	height: 80%;
+	background: lightskyblue;
+}
+
+.carousel-item
+{
+	padding: 20px;
+}
+
+.carousel-slide
+{
+	background-color: lightskyblue;
+
+}
+
+.carousel-inner
+{
+}
+
+.Container3
+{
+	background-color: lightskyblue;
+}
+
+.Container4
+{
+	display: flex;
+	width: 100%;
+	height: 10%;
+	padding-top: 50px ;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Kaushan Script', sans-serif;
+	background: lightskyblue;
+
+}
+
+
+
+section
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+	flex-wrap: wrap;
+	background-color: lightskyblue;
+
+}
+
+section > a 
+{
+	margin: 2%;
+}
+
+section > a > img 
+{
+	width: 500px;
+}
+
+
+body 
+{
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	background: lightskyblue;
+}
+
+.wrapper
+{
+	margin: 5% 30%;
+	width: 100%%;
+	height: 80%;
+	padding: 50px 30px;
+	background-color: lightcyan;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper .content .image1
+{
+	display: flex;
+	font-size: 60px;
+	justify-content: center;
+	align-items: center;
+	padding: 30px
+}
+
+.wrapper .content .text 
+{
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.wrapper .content .create_account
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.wrapper .content .create_account .create_acc
+{
+	width: 70%;
+	height: 58px;
+	border: none;
+	border-radius: 50px;
+	font-style: 1.5em;
+	background: lightblue;
+	font-weight: 500;
+	color: white;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.wrapper .content .create_account p
+{
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 1em;
+	position: relative;
+}
+
+.wrapper .content .create_account p::before
+{
+	content: '';
+	position: absolute;
+	top: 12px;
+	right: 25px;
+	width: 200px;
+	height: 1.4px;
+	background: #a6a6a6;
+}
+
+.wrapper .content .create_account p::after
+{
+	content: '';
+	position: absolute;
+	top: 12px;
+	left: 25px;
+	width: 200px;
+	height: 1.4px;
+	background: #a6a6a6;
+}
+
+.wrapper .content .create_account .sign-in
+{
+	margin-top: 20px;
+	width: 100%;
+	max-width: 300px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.emailAuth 
+{
+	margin: 5% 30%;
+	width: 100%%;
+	height: 80%;
+	padding: 50px 30px;
+	background: linear-gradient(to bottom right, #66ffff 16%, #ffcccc 87%);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.emailAuth .auth_content .form .smtext 
+{
+	font-weight: 500;
+	font-size: 1.5em;
+	color: blue;
+}
+
+.emailAuth .auth_content .form form
+{
+	margin-top: 20px;
+}
+
+.emailAuth .auth_content .form form .eInput input
+{
+	width: 100%;
+	height: 58px;
+	margin:  10px 0;
+	padding-left: 28px;
+	outline: none;
+	border: none;
+	background: #f3f5f7;
+	border-radius: 5px;
+}
+
+.emailAuth .auth_content .form form .eSubmit button 
+{
+	width: 100%;
+	height: 58px;
+	outline: none;
+	border: none;
+	background: #2853fb;
+	border-radius: 50px;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+}
+
+.emailAuth .auth_content .form form px{
+	margin-top: 20px;
+	font-size: 0.9em;
+	width: 90%;
+	color: #808080;
+}
+
+.emailAuth .auth_content .form form p span 
+{
+	font-weight: 500;
+	color: #2853fb;
+	cursor: pointer;
+}
+
+#back 
+{
+	color: rgba(152, 186, 219, 0.925);
+	cursor: pointer;
+}
+
+.error 
+{
+	color: #721c24;
+	background-color: #f8d7da;
+	border:  1px solid #f5c6cb;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	user-select: none;
+	display: none;
+}
+
+.eSubmit 
+{
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+.eInput 
+{
+	background: darkgray;
+	height: 50px;
+	margin-top: 50px;
+	border-radius: 8px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.eInput input
+{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	box-shadow: 0 25px 10px rgba(0, 0, 0, 0.2);
+}
+
+.eInput input::placeholder
+{
+	padding-left: 20px;
+	color: hsl(233, 14%, 35%);
+}
+
+
+.eInput form
+{
+	flex-grow: 1;
+}
+
+.eSubmit
+{
+	margin-top: 30px;
+}
+
+.eSubmit .register-btn
+{
+	width: 60%;
+	height: 58px;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	font-size: 1.2em;
+	background: linear-gradient(to top left, #0033cc 17%, #660066 84%);
+	font-weight: bold;
+	color: #fff;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.eSubmit .login-btn
+{
+	width: 60%;
+	height: 58px;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	font-size: 1.2em;
+	background: linear-gradient(to top left, #0033cc 17%, #00cc99 84%);	font-weight: bold;
+	color: #fff;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
